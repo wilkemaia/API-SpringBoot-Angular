@@ -1,0 +1,20 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: postgres://xpkbuouechnnij:b7ceeb5945d0e222600dd9f8390f0a9b257386b97fa5b0e184548e318842f87b@ec2-54-163-97-228.compute-1.amazonaws.com:5432/d4j5ad5h8e3vn9
+    username: xpkbuouechnnij
+    password: b7ceeb5945d0e222600dd9f8390f0a9b257386b97fa5b0e184548e318842f87b
+    database: d4j5ad5h8e3vn9
+
+jpa:
+  show-sql: true
+  database-platform: org.hibernate.dialect.PostgreSQLDialect
+  generate-dll: true
+hibernate:
+    ddl-auto: none
+
+application:
+    description: Projeto criado para bootcamp DIO - Santander
